@@ -53,3 +53,11 @@ input:focus, textarea:focus{
     border-color: #007bff;
     outline: none;
 }
+
+button{
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3 ease;
+}
