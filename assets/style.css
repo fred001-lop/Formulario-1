@@ -59,5 +59,23 @@ button{
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: background 0.3 ease;
+    transition: background 0.3s ease;
+}
+
+button:hover{
+    background: #0056b3;
+}
+
+@media (max-width: 480px){
+        .form-container{
+            padding: 15px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+
+        input, textarea, button{
+            font-size: 14px;
+        }
 }
